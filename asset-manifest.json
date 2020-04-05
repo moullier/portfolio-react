@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.d75f14db.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.bfc95f3b.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.bfc95f3b.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.6b1a3ce1.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.6b1a3ce1.js.map",
+    "static/js/2.eba65d89.chunk.js": "/react-portfolio/static/js/2.eba65d89.chunk.js",
+    "static/js/2.eba65d89.chunk.js.map": "/react-portfolio/static/js/2.eba65d89.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "precache-manifest.4d9ad7a8c733a068bd37808be883d771.js": "/react-portfolio/precache-manifest.4d9ad7a8c733a068bd37808be883d771.js",
+    "service-worker.js": "/react-portfolio/service-worker.js",
+    "static/css/main.d75f14db.chunk.css.map": "/react-portfolio/static/css/main.d75f14db.chunk.css.map",
+    "static/js/2.eba65d89.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.eba65d89.chunk.js.LICENSE.txt",
+    "static/media/Maria Francis-Moullier - Resume - Web Developer.pdf": "/react-portfolio/static/media/Maria Francis-Moullier - Resume - Web Developer.4103e9c5.pdf",
+    "static/media/dayplanner_ss.png": "/react-portfolio/static/media/dayplanner_ss.1242bbae.png",
+    "static/media/maria.jpg": "/react-portfolio/static/media/maria.dc958990.jpg",
+    "static/media/pickem_ss.png": "/react-portfolio/static/media/pickem_ss.0c221647.png",
+    "static/media/recipe_ss.png": "/react-portfolio/static/media/recipe_ss.60d83fec.png",
+    "static/media/weatherss.png": "/react-portfolio/static/media/weatherss.93c53f81.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6b1a3ce1.js",
+    "static/js/2.eba65d89.chunk.js",
+    "static/css/main.d75f14db.chunk.css",
+    "static/js/main.bfc95f3b.chunk.js"
+  ]
+}
