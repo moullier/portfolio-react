@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter, Switch, Route} from "react-router-dom";
-import Nav from "./components/Nav";
+import Header from "./components/Header";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
@@ -10,7 +10,7 @@ function App() {
   return (
     <BrowserRouter>
       <div>
-        <Nav />
+        <Header />
         <Switch>
         <Route exact path={["/", "/about"]}>
           <About />

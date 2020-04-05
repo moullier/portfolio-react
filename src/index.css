@@ -1,13 +1,98 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #f3f3f3;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#headerRow {
+  color: #f3f3f3;
+  background-color: #27325D;
+  margin-bottom: 10px;
+}
+
+#logo {
+padding-left: 15px;
+padding-top: 10px;
+
+}
+
+#navlist {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+a {
+  color: #f3f3f3;
+}
+
+#resumeList {
+  color: #27325D;
+}
+
+h2, h3 {
+  font-family: 'Comfortaa', cursive;
+}
+
+h3 {
+  color: #27325D;
+}
+
+#bodyRow, #bodyContent {
+  /* background-color: #6B9EE1; */
+}
+
+#headerText {
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
+.auth-image {
+  float: left;
+  height: auto;
+  /* padding-left: 10px; */
+  padding-right: 20px;
+}
+
+.card {
+  background-color: #6B9EE1;
+  margin-top: 15px;
+}
+
+.card-header {
+  background-color: #f3f3f3;
+}
+
+.githubLogo {
+  text-align-last: right;
+}
+
+.linkedinLogo, .githubLogo {
+  width: 32px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+/* Project Styling */
+
+.figcaption {
+  position: absolute;
+  top: 75%;
+  width: 100%;
+  background-color: #27325D;
+  color: #f3f3f3;
+  font-family: 'Comfortaa', cursive;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.work {
+  position: relative;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.portfolioimage {
+    border-style: solid;
+    border-radius: 2px;
+    border-color: #27325D;
 }
