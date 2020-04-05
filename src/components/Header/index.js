@@ -3,6 +3,8 @@ import { Link, useLocation } from "react-router-dom";
 
 function Header() {
     const location = useLocation();
+    console.log("location.pathname");
+    console.log(location.pathname);
     return (
         <div className="row" id="headerRow">
             <div className="col-md-6 col-12 justify-content-center d-flex justify-content-md-start">
@@ -12,7 +14,7 @@ function Header() {
                 <div className="nav justify-content-center justify-content-md-end" id="navlist">
                     <ul className="nav">
                         <li className="nav-item">
-                            <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
+                            <Link to="/">
                                 About
                             </Link>
                           {/* <a className="nav-link active" href="/about">About</a> */}
