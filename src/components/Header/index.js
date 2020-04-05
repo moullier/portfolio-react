@@ -14,7 +14,7 @@ function Header() {
                 <div className="nav justify-content-center justify-content-md-end" id="navlist">
                     <ul className="nav">
                         <li className="nav-item">
-                            <Link to="/">
+                            <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
                                 About
                             </Link>
                           {/* <a className="nav-link active" href="/about">About</a> */}
