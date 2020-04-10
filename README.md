@@ -14,6 +14,9 @@ https://stackoverflow.com/questions/48572896/react-how-to-open-pdf-file-as-a-hre
 
 https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f - This article helped me get the app built and deployed to github pages.
 
+https://github.com/facebook/create-react-app/issues/1765 - Helped with solving an issue with deploying to GitHub Pages.
+
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)

@@ -3,8 +3,10 @@ import { Link, useLocation } from "react-router-dom";
 
 function Header() {
     const location = useLocation();
-    console.log("location.pathname");
-    console.log(location.pathname);
+    // console.log("location.pathname");
+    // console.log(location.pathname);
+    console.log("process.env.PUBLIC_URL");
+    console.log(process.env.PUBLIC_URL);
     return (
         <div className="row" id="headerRow">
             <div className="col-md-6 col-12 justify-content-center d-flex justify-content-md-start">
@@ -14,22 +16,22 @@ function Header() {
                 <div className="nav justify-content-center justify-content-md-end" id="navlist">
                     <ul className="nav">
                         <li className="nav-item">
-                            <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
+                            <Link to={"/"} className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
                                 About
                             </Link>
                           {/* <a className="nav-link active" href="/about">About</a> */}
                         </li>
                         <li className="nav-item">
-                            <Link to="projects" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
+                            <Link to={"/projects"} className={location.pathname === "/projects" ? "nav-link active" : "nav-link"}>
                                 Projects
                             </Link>
                           {/* <a className="nav-link" href="/projects">Projects</a> */}
                         </li>
                         <li className="nav-item">
-                            <Link to="contact" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
+                            <Link to={"/contact"} className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}>
                                 Contact Me
                             </Link>
-                          {/* <a className="nav-link" href="/contact">Contact Me</a> */}
+                          {/* <a className="nav-link" href=process.env.PUBLIC_URL + "/contact">Contact Me</a> */}
                         </li>
                       </ul>
                 </div>
